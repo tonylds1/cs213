@@ -1,0 +1,46 @@
+body {
+    background: #64570e;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+}
+
+#header {
+    height: 300px;
+}
+#header img {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+#header h1 {
+    position: relative;
+    top: 150px;
+    left: 10px;
+}
+
+#week-links ul{
+    list-style: none;
+}
+
+#week-links ul li {    
+    display: inline; 
+    margin: 10px;
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}

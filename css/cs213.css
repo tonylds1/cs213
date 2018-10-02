@@ -21,6 +21,7 @@ body {
     position: relative;
     top: 150px;
     left: 10px;
+    font-size: 4em;
 }
 
 #week-links ul{
@@ -29,7 +30,9 @@ body {
 
 #week-links ul li {    
     display: inline; 
-    margin: 10px;
+    margin: 42px;
+    width: 40px;
+    min-height: 40px;
 }
 
 #menu ul li a {
@@ -43,4 +46,24 @@ body {
     color: #333;
     text-decoration: none;
     border-bottom:3px solid #EDEDED;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+span#name-on {
+    color: rgb(133, 209, 19);
+}
+
+div#content {
+    margin: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    min-height: 300px;
+}
+
+table {
+    border: solid 1px black;
+}
+
+div#footer {
+    min-height: 100px;
 }

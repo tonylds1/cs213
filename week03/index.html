@@ -4,19 +4,61 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tony Moraes' Assingments</title>
+        <link rel="stylesheet" href="../css/cs213-w03.css" />
+        <style>
+            a::first-letter {
+                font-family: fantasy;
+                font-size: 1.5em;
+            }
+
+            p {
+                color: #4267b2;
+            }
+
+            #navigation ul li a:hover {
+                background: darkolivegreen;
+            }
+
+            #navigation ul li:last-child a {
+                background: #4ed4d9;
+            }
+
+            .name {
+                color: black;
+            }
+        </style>
     </head>
     <body>
-        <h1>CS 213 assingment - Week 03</h1>
-        <div>
-            <a href="../index.html">Home</a>
+        <div id="header">
+            <div id="logo"><a href="#"> &nbsp;</a></div>
+            <div id="slogan">Bring ideas to Real World.</div>
         </div>
-        <ul>
-            <li>
-                <a href="../week02/index.html">Previus</a>
-            </li>
-            <li>
-                <a href="../week04/index.html">Next</a>
-            </li>
-        </ul>
+        <div id="document">
+            <div id="navigation">
+                <ul>
+                    <li>
+                        <a href="../index.html">CS213 Assignments</a>
+                    </li>
+                    <li>
+                        <a href="../week02/index.html">Previus Assignment</a>
+                    </li>
+                    <li>
+                        <a href="../week04/index.html">Next Assignment</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="content">
+                <h1>WHAT IS <br/>EVER<span class="name">TONY</span></h1>
+                <p>Hi my name is <span class="name">Tony</span> and I am your host for creative ideas. My Business it to 
+                    help you to find the soul of your needs.</p>
+            </div>
+            <div id="content-img">
+                <!-- INLINE STYLE - To be clear that img should have style for width and height -->
+                <img src="../img/w03-logo.png" alt="logo" style="width: 300px; height: 300px;">
+            </div>
+        </div>        
     </body>
 </html>

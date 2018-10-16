@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tony Moraes' Assingments</title>
+        <link rel="stylesheet" href="../css/cs213-w03.css" />
+        <style>
+            form {
+                margin: auto;
+                padding-top: 100px;
+            }
+            #contactForm p {
+                color: #7ad5e9;
+            }
+            input[type=text], textarea, select {
+                width: 30%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            input[type=submit] {
+                width: 30%;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            h1 {
+                color: #4267b2 !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo"><a href="#"> &nbsp;</a></div>
+            <div id="slogan">Bring ideas to Real World.</div>
+        </div>
+        <div id="document">
+            <div id="navigation">
+                <ul>
+                    <li>
+                        <a href="../index.html">CS213 Assignments</a>
+                    </li>
+                    <li>
+                        <a href="../week02/index.html">Previus Assignment</a>
+                    </li>
+                    <li>
+                        <a href="../week04/index.html">Next Assignment</a>
+                    </li>
+                    <li>
+                        <a href="../week03/index.html">Back</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="content">
+                <h1>Contact us</h1>
+                <p>If you need a plan for your ideas or even send us greetings or suggestion, fill the form.</p>
+            </div>    
+            <div id="contactForm">
+                <form action="#">
+                    <div>Name:</div>
+                    <input type="text" name="name">
+                    <br/>
+                    <div>Subject:</div>
+                    <select id="subject" name="subject">
+                        <option value="australia">Sujestion</option>
+                        <option value="canada">reclamation</option>
+                        <option value="usa">greetings</option>
+                    </select>
+                    <br/>
+                    <div>Description:</div>
+                    <textarea>Some text...</textarea>
+                    <br/>
+                    <input type="submit" value="Submit">
+                </form> 
+            </div>     
+        </div>        
+    </body>
+</html>

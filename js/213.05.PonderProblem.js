@@ -34,13 +34,16 @@ function problem3(fahrenheit) {
  * @param {Number} weight 
  */
 function problem4(weight) {
-    if (weight < 1 || weight > 5) {
+    var values = [0.98, 1.19, 1.40, 1.61, 1.82];
+    var result = values[weight];
+    
+    if (result == Undefined) {
         console.log('Invalid weight');
         alert('Invalid weight');
     }
 
-    console.log('Good weight');
-    alert('Good weight');
+    console.log(result);
+    alert(result);
 }
 
 /**

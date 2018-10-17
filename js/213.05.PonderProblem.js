@@ -42,8 +42,8 @@ function problem4(weight) {
         alert('Invalid weight');
     }
 
-    console.log(result);
-    alert(result);
+    console.log('$' + result.toFixed(2));
+    alert('$' + result.toFixed(2));
 }
 
 /**

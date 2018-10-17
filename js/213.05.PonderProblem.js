@@ -35,7 +35,7 @@ function problem3(fahrenheit) {
  */
 function problem4(weight) {
     var values = [0.98, 1.19, 1.40, 1.61, 1.82];
-    var result = values[weight];
+    var result = values[weight-1];
     
     if (result == undefined) {
         console.log('Invalid weight');

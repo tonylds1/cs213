@@ -37,7 +37,7 @@ function problem4(weight) {
     var values = [0.98, 1.19, 1.40, 1.61, 1.82];
     var result = values[weight];
     
-    if (result == Undefined) {
+    if (result == undefined) {
         console.log('Invalid weight');
         alert('Invalid weight');
     }

@@ -24,9 +24,9 @@ function validateSSN(input) {
 }
 
 function validateCCNumber(input) {
-    var number = input.value.trim();
-    var pattern = /\d{4}(\s\d{4}){3}/g;
-    var show = number == '' || number.length != 19 || !pattern.test(number);
+    var number = input.value.replace(/\s/g, '');
+    var pattern = /^\d+$/g;
+    var show = number.length != 16 || !pattern.test(number);
 
     toogleValidationMessage(input, show);
 }
@@ -46,8 +46,7 @@ function validateDate(input) {
 
     var month30Validation = [2,4,6,9,11].includes(Number(month)) && Number(day) > 30;
 
-
-    var show = dateInput == ''
+    var show = input.value.trim().length < 8
         || monthValidation
         || dayValidation
         || yearValidation
@@ -73,7 +72,7 @@ function validateStateAbbreviation(input) {
 
 function validateDollar(input) {
     var dollar = input.value.trim().toUpperCase();
-    var pattern = /^\$(\d{1,3}|\d{1,3}(\,\d{3})*)\.\d{2}$/g;
+    var pattern = /^\${0,1}(\d+|\d{1,3}(\,\d{3})*)(\.\d{1,2}){0,1}$/g;
 
     var show = dollar == '' || !pattern.test(dollar);
 

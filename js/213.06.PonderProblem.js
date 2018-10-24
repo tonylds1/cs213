@@ -38,9 +38,9 @@ function validateDate(input) {
     var year = dateInput[2];
 
     //These validations shows the warning
-    var monthValidation = month < 1 || month > 12;
-    var dayValidation = day < 1 || day > 31;
-    var yearValidation = year < 1753 || year > 2100;
+    var monthValidation = month.length > 2 || month < 1 || month > 12;
+    var dayValidation = day.length > 2 || day < 1 || day > 31;
+    var yearValidation = year.length > 4 || year < 1753 || year > 2100;
 
     var februaryValidation = Number(month) == 2 && day > 28;
 

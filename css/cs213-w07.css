@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e9ebee; 
+    font-size: 17px;    
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #333;
+    font-style: normal;
+}
+
+#container {
+    position: relative;
+    margin: auto;
+    width: 960px;
+    padding: 10px;
+
+    background-color: #fff; /* #e9ebee; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul#cart {
+    list-style: none;
+    margin-top: 30px;
+}
+
+#model-item {
+    display: none;
+}
+
+.br-Section {
+    clear: both;
+}
+
+.item-img {
+    position: relative;
+    float: left;
+    background-image: url("../img/seeds.png");
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}   
+
+.item-desc  { display: inline-block; width: 40%;}
+.item-price { display: inline-block; width: 10%;}
+.item-qtd   { display: inline-block; width: 10%;}
+.item-total { 
+    margin-top: 10px;
+    display: inline-block; 
+    width: 10%; 
+    float: right;
+}
+
+div#bill {
+    float: right;
+    clear: both;
+    width: 30%;
+}
+div#costumer {
+    clear:both;
+    visibility: hidden;
+    padding-top: 30px;
+}
+
+#costumer input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit], input[type=reset], button {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item-qtd input {
+    width: 60%;
+    padding: 4px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#costumer {
+    width: 600px;
+    margin: auto;
+}
+#costumer form label {
+    display: inline-block;
+    width: 30%;
+}
+
+.msgValidation {
+    color: red;
+    display: none;
+}

@@ -167,3 +167,14 @@ function isLeapYear(year) {
 
     return false;
 }
+
+/**
+ * Shows error if there is more or less the 16 digits
+ * @param input
+ */
+function validatePhone(input) {
+    var pattern = /^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$/g;
+    var show = !pattern.test(input.value);
+
+    toogleValidationMessage(input, show);
+}

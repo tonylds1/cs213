@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<!DOCTYPE rss SYSTEM "BSA.dtd">
+<bsa>
+    <council name="westhern">
+        <troop number="1" unit="fox">
+            <scout>
+                <first-name>Shella</first-name>
+                <last-name>Wegener</last-name>
+                <address>
+                    <street>113 Maple Ave.</street>
+                    <city>Garner</city>
+                    <state>NC</state>
+                </address>
+                <phone>(803) 5656-1111</phone>
+                <rank date-earned="2018-02-01">Tenderfoot</rank>
+                <rank date-earned="2018-03-01">1stClass</rank>
+                <rank date-earned="2018-04-01">Eagle</rank> 
+                <meritbadge date-earned="2018-05-01">Swimming</meritbadge>
+                <meritbadge date-earned="2018-06-01">First Aid</meritbadge>
+            </scout>
+            <scout>
+                <first-name>Myrtis</first-name>
+                <last-name>Finkel</last-name>
+                <address>
+                    <street>64 East Gregory Drive</street> 
+                    <city>Lafayette</city>
+                    <state>IN </state>
+                </address>
+                <phone>(803) 9999-4545</phone>
+                <rank date-earned="2018-07-01">Star</rank>
+                <rank date-earned="2018-08-01">Eagle</rank>
+                <meritbadge date-earned="2018-09-01">Life Saving</meritbadge>
+                <meritbadge date-earned="2018-10-01">Camping</meritbadge>
+            </scout>
+            <scout>
+                <first-name>Caryn</first-name>
+                <last-name>Argento</last-name>
+                <address>
+                    <street>8660 Smoky Hollow St.</street> 
+                    <city>Ashtabula</city>
+                    <state>OH</state>
+                </address>
+                <phone>(803) 3434-1111</phone>
+            </scout>
+        </troop>
+        <troop number="2" unit="beaver">
+            <scout>
+                <first-name>Abram</first-name>
+                <last-name>Jeppesen</last-name>
+                <address>
+                    <street>629 Lower River Court</street> 
+                    <city>Waltham</city>
+                    <state>MA</state>
+                </address>
+                <phone>(803) 9999-3232</phone>
+                <rank date-earned="2018-01-01">2ndClass</rank>
+                <rank date-earned="2018-02-01">Life</rank>
+                <meritbadge date-earned="2018-03-01">Environmental Science</meritbadge>
+                <meritbadge date-earned="2018-04-01">First Aid</meritbadge>
+            </scout>
+            <scout>
+                <first-name>Kelsey</first-name>
+                <last-name>Diep</last-name>
+                <address>
+                    <street>7126 Alderwood Ave.</street> 
+                    <city>Lancaster</city>
+                    <state>NY</state>
+                </address>
+                <phone>(803) 5555-1111</phone>
+                <rank date-earned="2018-05-01">1stClass</rank>
+                <meritbadge date-earned="2018-06-01">Environmental Science</meritbadge>
+            </scout>
+            <scout>
+                <first-name>Cayla</first-name>
+                <last-name>Mire</last-name>
+                <address>
+                    <street>9954 NE. Atlantic Lane</street> 
+                    <city>Meadville</city>
+                    <state>PA</state>
+                </address>
+                <phone>(803) 9999-5555</phone>
+            </scout>
+        </troop>
+    </council>
+    <council name="southern">
+        <troop number="3" unit="raccoon">
+            <scout>
+                <first-name>Celeste</first-name>
+                <last-name>Bertin</last-name>
+                <address>
+                    <street>9331 Richardson Avenue</street> 
+                    <city>South Richmond Hill</city>
+                    <state>NY</state>
+                </address>
+                <phone>(803) 6666-1111</phone>
+                <rank date-earned="2018-01-01">Tenderfoo</rank>
+                <rank date-earned="2018-02-01">2ndClass</rank>
+                <rank date-earned="2018-03-01">1stClass</rank> 
+                <rank date-earned="2018-04-01">Star</rank> 
+                <rank date-earned="2018-05-01">Life</rank> 
+                <rank date-earned="2018-06-01">Eagle</rank> 
+                <meritbadge date-earned="2018-01-01">First Aid</meritbadge>
+                <meritbadge date-earned="2018-07-01">Swimming</meritbadge>
+                <meritbadge date-earned="2018-08-01">Life Saving</meritbadge>
+                <meritbadge date-earned="2018-10-01">Environmental Science</meritbadge>
+                <meritbadge date-earned="2018-11-01">Camping</meritbadge>
+                <meritbadge date-earned="2018-12-01">Cs213 - effort</meritbadge>
+            </scout>
+            <scout>
+                <first-name>Johanna</first-name>
+                <last-name>Abercrombie</last-name>
+                <address>
+                    <street>9835 Old Race Street</street> 
+                    <city>Moorhead</city>
+                    <state>MN</state>
+                </address>
+                <phone>(803) 9999-4444</phone>
+                <rank date-earned="2018-03-01">2ndClass</rank>
+                <meritbadge date-earned="2018-02-01">Eagle</meritbadge>
+            </scout>
+            <scout>
+                <first-name>Norma</first-name>
+                <last-name>Maglio</last-name>
+                <address>
+                    <street>581 Homestead St.</street> 
+                    <city>Royal Oak</city>
+                    <state>MI</state>
+                </address>
+                <phone>(803) 7777-1111</phone>
+            </scout>
+        </troop>
+        <troop number="4" unit="flamming arrow">
+            <scout>
+                <first-name>Calista</first-name>
+                <last-name>Krauss</last-name>
+                <address>
+                    <street>834 Philmont Court</street> 
+                    <city>Elmont</city>
+                    <state>NY </state>
+                </address>
+                <phone>(803) 9999-3333</phone>
+                <rank date-earned="2018-03-01">Swimming</rank> 
+                <meritbadge date-earned="2018-02-01">Environmental Science</meritbadge>
+            </scout>
+            <scout>
+                <first-name>Tad</first-name>
+                <last-name>Burritt</last-name>
+                <address>
+                    <street>694 West Devon</street> 
+                    <city>Southfield</city>
+                    <state>MI</state>
+                </address>
+                <phone>(803) 8888-1111</phone>
+                <rank date-earned="2018-01-04">1stClass</rank>
+                <rank date-earned="2018-01-03">Eagle</rank>
+                <meritbadge date-earned="2018-01-02">Life Saving</meritbadge>
+            </scout>
+            <scout>
+                <first-name>Xuan</first-name>
+                <last-name>Rondon</last-name>
+                <address>
+                    <street>46 Henry Smith</street> 
+                    <city>Irwin</city>
+                    <state>PA</state>
+                </address>
+                <phone>(803) 9999-2222</phone>
+                <rank date-earned="2018-11-12">Tenderfoot</rank>
+                <rank date-earned="2018-07-12">Star</rank>
+                <rank date-earned="2018-01-12">1stClass</rank> 
+                <meritbadge date-earned="2018-01-01">Environmental Scienc</meritbadge>
+            </scout>
+        </troop>
+    </council>
+</bsa>

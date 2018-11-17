@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e9ebee; 
+    font-size: 17px;    
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #333;
+    font-style: normal;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 960px;
+    padding: 10px;
+
+    background-color: #fff; /* #e9ebee; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.concil-troop {
+    position: relative;
+    margin: 10px;
+    background-color: beige;
+}
+
+.concil-troop h1 {
+    margin: 20px;
+}
+
+.scout {
+    display: inline-block;
+    background-color: #ccc;
+    margin: 3px;
+    padding: 5px;
+    width: 295px;
+    min-height: 295px;
+}
+
+.scout .info {
+    margin: 10px;
+    padding: 10px;
+    min-height: 50px;
+    align-content: center;
+}
+
+.inner-boxes {
+    position: relative;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 130px;
+    min-height: 130px;
+    font-size: 0.75em;
+    overflow: hidden;
+    scroll-behavior: auto;
+}
+
+.inner-boxes ul li {
+    list-style: none;
+}
+.rank {
+    background-color: red;
+}
+
+.meritbadges {
+    background-color: aqua;
+}
+
+.troop-footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+}

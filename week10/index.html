@@ -1,60 +1,70 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>CS 213 Ponder &amp; Prove Assignments</title>
-    <link href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Course/style.css"
-          rel="stylesheet" type="text/css"  />
-</head>
-<body>
-  <div id="main" class="splash">
-    <div id="header">
-       <img class="banner" alt="CS 213 Banner" title="CS 213 Banner"
-            src="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Course/banner.png"  />
-       <article>
-        <p>Welcome to CS 213. This home page is a mirror of the assignments listed in the course I Learn site.</p>
-        <table class="rubric">
-         <tbody>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.02.Ponder.html">02 : Home Page</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.03.Ponder.html">03 : Commercial Site</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.04.Ponder.html">04 : Updated Web Sites</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.05.Ponder.html">05 : Java Script Problems</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.06.Ponder.html">06 : Parsing</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.07.Ponder.html">07 : E-Commerce</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.08.Ponder.html">08 : BSA XML</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.09.Ponder.html">09 : BSA Presentation</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.10.Ponder.html">10 : Cities and Students</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.11.Ponder.html">11 : PHP Problems</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.12.Ponder.html">12 : Purchase Review</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://content.byui.edu/file/a2f1994c-58d3-410b-b1ad-aebc3e430f1e/1/Ponder/213.13.Ponder.html">13 : Technologies</a></td>
-          </tr>
-         </tbody>
-        </table>
-      </article>
-     </div> <!-- id="header" -->
-   </div> <!-- id="main" -->
-</body>
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tony Moraes' Assingments</title>
+        <link rel="stylesheet" href="../css/cs213-w10.css" /> 
+        <script type="text/javascript" src="../js/213.10.PonderProblem.js"></script>
+    </head>
+    <body>
+        <h1>CS 213 assingment - Week 10</h1>
+        <div>
+            <a href="../index.html">Home</a>
+        </div>
+        <ul>
+            <li>
+                <a href="../week09/BSA.xml">Previus</a>
+            </li>
+            <li>
+                <a href="../week11/index.html">Next</a>
+            </li>
+        </ul>
+        <div class="container">
+            <div class="problem01">
+                <div class="form">
+                    <label>Choose a country:</label>
+                    <select onchange="problem01(this)">
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="russia">Russia</option>
+                    </select> 
+                </div>
+                <div class="file-content">
+                    <h2>10 largest cities</h2>
+                    <pre id="content1"></pre>
+                </div>
+            </div>
+            <div class="cleardiv"></div>
+            <div class="problem02">
+                <div class="form">
+                    <label>What is the file name?</label>
+                    <input id="filename"/>
+                    <button onclick="problem02(this)">Load File</button>
+                </div>
+                <div class="file-content">
+                    <h2>Students</h2>
+                    <div id="content2">
+                        <table id="table-content-2" style="display:none;">
+                            <thead>
+                                <th>Complete Name</th>
+                                <th>Address</th>
+                                <th>Major</th>
+                                <th>GPA</th>
+                            </thead>
+                            <tbody>
+                                <tr id="student-row" style="visibility: hidden">
+                                    <td class="name"></td>
+                                    <td class="address"></td>
+                                    <td class="major"></td>
+                                    <td class="gpa"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

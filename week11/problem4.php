@@ -23,17 +23,17 @@
       'twenty'    =>   'veinte'
    ];
 
-   $translated = isset($source[$_POST['input4']]) 
-      ?  $source[$_POST['input4']] 
-      : "it is Not a Number in Spanish.";
+   $sourceValue = $source[$_POST['input4']] 
+   ?? 'The English cardinal "' . $_POST['input4'] . '" is not between "one" and "twenty"';
+
 ?>
 
 <html>
    <head>
-      <title>Week 11 : Problem 3</title>
+      <title>Week 11 : Problem 4</title>
    </head>
    <body>
-         <h1> <?php echo $translated; ?> </h1>
+         <h1> <?php print $sourceValue; ?> </h1>
    </body>
 </html>
 

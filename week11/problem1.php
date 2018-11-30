@@ -3,6 +3,6 @@
       <title>Week 11 : Problem 1</title>
    </head>
    <body>
-      <h1><?php echo "Hello World" ?></h1>
+      <p><?php echo "Hello World"; ?></p>
    </body>
 </html>

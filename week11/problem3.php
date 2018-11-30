@@ -4,7 +4,7 @@
 
 <html>
    <head>
-      <title>Week 11 : Problem 2</title>
+      <title>Week 11 : Problem 3</title>
    </head>
    <body>
          <h1> <?php echo $input3; ?>
